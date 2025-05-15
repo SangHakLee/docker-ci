@@ -6,7 +6,7 @@ RUN apk add --no-cache \
     openssh-client \
     make \
     vim \
-    curl
-
+    curl \
+    jq
 
 CMD ["/bin/bash"]
