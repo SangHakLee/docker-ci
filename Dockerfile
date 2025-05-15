@@ -1,0 +1,12 @@
+FROM alpine:3.19
+
+RUN apk add --no-cache \
+    bash \
+    docker-cli \
+    openssh-client \
+    make \
+    vim \
+    curl
+
+
+CMD ["/bin/bash"]
